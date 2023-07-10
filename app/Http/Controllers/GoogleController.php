@@ -13,7 +13,7 @@ use Exception;
 
 class GoogleController extends Controller
 {
-     public function googlepage()
+ public function googlepage()
      {
          return Socialite::driver('google')->redirect();
 
