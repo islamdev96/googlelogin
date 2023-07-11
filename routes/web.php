@@ -3,6 +3,9 @@
 use App\Http\Controllers\GoogleController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\LinkedinController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,3 +36,5 @@ Route::get('auth/google', [GoogleController::class , 'googlepage']);
 Route::get('auth/google/callback', [GoogleController::class, 'googlecallback']);
 
 
+Route::get('auth/linkedin', [LinkedinController::class, 'linkedinRedirect']);
+Route::get('auth/linkedin/callback', [LinkedinController::class, 'linkedinCallback']);

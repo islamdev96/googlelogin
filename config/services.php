@@ -37,4 +37,12 @@ return [
 
     ],
 
+
+        'linkedin' => [
+            'client_id' => '77w5ho9ykud17k',
+            'client_secret' => 'jNi6gcS3MknTPNbz',
+            'redirect' => 'http://127.0.0.1:8000/auth/linkedin/callback',
+        ],
+
+
 ];
